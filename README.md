@@ -21,6 +21,7 @@ seperti biasa ini adalah tutorial cara penginstalan dan cara pemakaian pycharm
 
 # Cara menjalankan Pycharm
 Sebelumnya kita membuat file dengan cara
+
 1.Pertama kita akan membuat project dengan nama,Di sini saya namakan Praktikum3
 
 2.Setelah itu anda pilih Previously Configurred interperter lalu klik yang add interperter
