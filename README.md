@@ -67,17 +67,17 @@ print(w, x, y, z, sep = ':')
 print(w, x, y, z, sep = '-----')
 
 #String format
-print (0,10**0)
-print (1,10**1)
-print (2,10**2)
-print (3,10**3)
-print (4,10**4)
-print (5,10**5)
-print (6,10**6)
-print (7,10**7)
-print (8,10**8)
-print (9,10**9)
-print (10,10**10)
+print (0,10* *0)
+print (1,10* *1)
+print (2,10* *2)
+print (3,10* *3)
+print (4,10* *4)
+print (5,10* *5)
+print (6,10* *6)
+print (7,10* *7)
+print (8,10* *8)
+print (9,10* *9)
+print (10,10* *10)
 
 #String format
 print ('{0:>3} {1:>16}'.format(0, 10**0))
@@ -137,3 +137,22 @@ print ("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
 2. Setelah dirun maka hasilnya adalah sebagai berikut
    ![run 2](https://user-images.githubusercontent.com/115677440/199351854-062857b3-de6b-4062-86c3-bf9e8df46418.png)
 
+# Latihan 3
+untuk latihan tiga kita akan membuat pattren,langkah-langkah nya adalah sebagai berikut
+![latihan 3 (1)](https://user-images.githubusercontent.com/115677440/199352245-233fcf53-f325-443a-9e1e-d89004074d6e.png)
+![latihan 3 (2)](https://user-images.githubusercontent.com/115677440/199352255-7493ab35-7c1a-4896-8485-dc2ab356df0d.png)
+
+maka hasilnya adalah sebagai berikut
+![run 3](https://user-images.githubusercontent.com/115677440/199352329-4471ee0c-99eb-42f6-a9d4-2e8879ba232a.png)
+
+# Praktikum 3
+Sekarang kita akan membuat operasi aritmatika menghitung luas dan keliling Lingkaran menggunakan pycharm
+Langkahnya adalah sebagai berikut
+
+1.Buat file baru
+
+2.Masukan perintah berikut
+![lingkaran (2)](https://user-images.githubusercontent.com/115677440/199352599-ff640dce-40e0-4a0a-a4f5-3989203ef61e.png)
+
+perintah import math berfungsi untuk mengimport suatu operasi matematika
+variable r menyimpan data 
