@@ -68,25 +68,15 @@ print(w, x, y, z, sep = '-----')
 
 #String format
 print (0,10**0)
-
 print (1,10**1)
-
 print (2,10**2)
-
 print (3,10**3)
-
 print (4,10**4)
-
 print (5,10**5)
-
 print (6,10**6)
-
 print (7,10**7)
-
 print (8,10**8)
-
 print (9,10**9)
-
 print (10,10**10)
 
 #String format
@@ -123,13 +113,27 @@ print ('{0:>3} {1:>16}'.format(10, 10**10))
 1.Kita akan memasukan perintah sebagai berikut
 2.
 a = input ("masukan nilai a:")
+
 b = input ("masukan nilai b:")
+
 print ("variable a=",a)
+
 print ("variable b=",b)
+
 print ("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 
 #konversi nilai variable
+
 a = int(a)
+
 b = int (b)
+
 print ("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
+
 print ("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
+
+![latihan 2](https://user-images.githubusercontent.com/115677440/199351754-9fbd1b57-290d-48c0-aac6-42c97aed49e7.png)
+
+2. Setelah dirun maka hasilnya adalah sebagai berikut
+   ![run 2](https://user-images.githubusercontent.com/115677440/199351854-062857b3-de6b-4062-86c3-bf9e8df46418.png)
+
