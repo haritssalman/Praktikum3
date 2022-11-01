@@ -68,15 +68,25 @@ print(w, x, y, z, sep = '-----')
 
 #String format
 print (0,10* *0)
+
 print (1,10* *1)
+
 print (2,10* *2)
+
 print (3,10* *3)
+
 print (4,10* *4)
+
 print (5,10* *5)
+
 print (6,10* *6)
+
 print (7,10* *7)
+
 print (8,10* *8)
+
 print (9,10* *9)
+
 print (10,10* *10)
 
 #String format
@@ -155,4 +165,19 @@ Langkahnya adalah sebagai berikut
 ![lingkaran (2)](https://user-images.githubusercontent.com/115677440/199352599-ff640dce-40e0-4a0a-a4f5-3989203ef61e.png)
 
 perintah import math berfungsi untuk mengimport suatu operasi matematika
-variable r menyimpan data 
+
+variable r menyimpan data float yang nilainya kita inputkan sendiri
+
+operasi luas = math.p*(r * r)
+
+operasi keliling = 2* math.pi * r
+
+print untuk mencetak hasil dari operasi di atas
+
+maka hasilnya akan seperti ini
+![lingkaran (4)](https://user-images.githubusercontent.com/115677440/199353603-2abde148-96bb-4cdd-825d-304ed80ccbe8.png)
+
+dan ini adalah flowchartnya
+![flowchart](https://user-images.githubusercontent.com/115677440/199353651-6d34fafa-e75b-429c-96d1-abf8d850e6d3.png)
+
+terimakasih
