@@ -19,7 +19,7 @@ kita akan membuat 3 file latihan untuk dijalankan di pycharm
 
 # Latihan 1
 1. Kita akan memasukan perintah sebagai berikut
-  #Penggunaan AND
+2. #Penggunaan AND
 print ('A', end='')
 print ('B', end='')
 print ('C', end='')
