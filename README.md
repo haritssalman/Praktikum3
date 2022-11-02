@@ -150,8 +150,9 @@ print untuk mencetak hasil dari operasi di atas
 
 3.maka hasilnya akan seperti ini
 ![lingkaran (4)](https://user-images.githubusercontent.com/115677440/199353603-2abde148-96bb-4cdd-825d-304ed80ccbe8.png)
-````
-4.dan ini adalah flowchartnya
-![flowchart](https://user-images.githubusercontent.com/115677440/199353651-6d34fafa-e75b-429c-96d1-abf8d850e6d3.png)
+
+4.ini adalah flowchartnya
+
+![flowchart](https://user-images.githubusercontent.com/115677440/199373274-742f603c-d1c7-41ee-9a23-e2dd76ecbc8e.png)
 
 terimakasih
