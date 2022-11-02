@@ -38,6 +38,51 @@ Sebelumnya kita membuat file dengan cara
 
 # Latihan 1
 1. Kita akan memasukan perintah sebagai berikut
+````
+# penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('Z')
+
+# penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+
+# string format
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**6)
+print(7, 10**7)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+# string format
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10)
+````
+
 ![latihan 1](https://user-images.githubusercontent.com/115677440/199351020-19c51231-e514-4700-a095-53a099b3cd0f.png)
 ![latihan (2)](https://user-images.githubusercontent.com/115677440/199351006-de52ab9b-f5d6-4a3e-82c7-0944158402dd.png)
 
@@ -46,7 +91,21 @@ Sebelumnya kita membuat file dengan cara
 ![run 1 (2)](https://user-images.githubusercontent.com/115677440/199351366-fc4de54d-fade-4fba-a1a2-70f4f64d169d.png)
 
 # Latihan 2
-1.Kita akan memasukan perintah sebagai berikut
+1.Kita akan memasukan perintah sebagai berikut1.Kita akan memasukan perintah sebagai berikut
+````
+a=input("masukkan nilai a:")
+b=input("masukkan nilai b:")
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+
+#koversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
+````
+
 ![latihan 2](https://user-images.githubusercontent.com/115677440/199351754-9fbd1b57-290d-48c0-aac6-42c97aed49e7.png)
 
 2. Setelah dirun maka hasilnya adalah sebagai berikut
@@ -67,17 +126,27 @@ Langkahnya adalah sebagai berikut
 1.Buat file baru
 
 2.Masukan perintah berikut
+````
+import math
+
+r = float(input("Masukan Jari-jari : "))
+
+luas = math.pi * (r * r)
+keliling = 2 * math.pi * r
+
+print("Luas Lingkaran \t\t= ", luas)
+print("Keliling Lingkaran\t= ", keliling)
+````
+
 ![lingkaran (2)](https://user-images.githubusercontent.com/115677440/199352599-ff640dce-40e0-4a0a-a4f5-3989203ef61e.png)
 
+````
 perintah import math berfungsi untuk mengimport suatu operasi matematika
-
 variable r menyimpan data float yang nilainya kita inputkan sendiri
-
 operasi luas = math.p*(r * r)
-
 operasi keliling = 2* math.pi * r
-
 print untuk mencetak hasil dari operasi di atas
+````
 
 maka hasilnya akan seperti ini
 ![lingkaran (4)](https://user-images.githubusercontent.com/115677440/199353603-2abde148-96bb-4cdd-825d-304ed80ccbe8.png)
